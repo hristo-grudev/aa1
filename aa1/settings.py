@@ -1,0 +1,14 @@
+BOT_NAME = 'aa1'
+
+SPIDER_MODULES = ['aa1.spiders']
+NEWSPIDER_MODULE = 'aa1.spiders'
+FEED_EXPORT_ENCODING = 'utf-8'
+LOG_LEVEL = 'ERROR'
+DOWNLOAD_DELAY = 0
+
+ROBOTSTXT_OBEY = True
+
+ITEM_PIPELINES = {
+	'aa1.pipelines.Aa1Pipeline': 100,
+
+}
